@@ -493,7 +493,7 @@ def render_management() -> None:
 
 
 def main() -> None:
-    st.set_page_config(page_title="Northbridge Learning Centre — Course Booking")
+    st.set_page_config(page_title="Northbridge Learning Centre — Course Booking", layout="wide")
     initialise_state()
 
     st.title("Northbridge Learning Centre — Course Booking")
